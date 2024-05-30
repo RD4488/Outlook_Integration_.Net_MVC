@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutlookIntegration", "OutlookIntegration\OutlookIntegration.csproj", "{29C8A0A6-0F94-44BE-B974-A81B1D54C2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookMVC", "OutlookMVC\OutlookMVC.csproj", "{09EF491D-3623-4818-BFC2-1EAB21C6D6B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C8A0A6-0F94-44BE-B974-A81B1D54C2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C8A0A6-0F94-44BE-B974-A81B1D54C2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C8A0A6-0F94-44BE-B974-A81B1D54C2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C8A0A6-0F94-44BE-B974-A81B1D54C2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EF491D-3623-4818-BFC2-1EAB21C6D6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EF491D-3623-4818-BFC2-1EAB21C6D6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EF491D-3623-4818-BFC2-1EAB21C6D6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EF491D-3623-4818-BFC2-1EAB21C6D6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8A22C57-F622-454B-83A0-23F2E09ECA96}
+	EndGlobalSection
+EndGlobal

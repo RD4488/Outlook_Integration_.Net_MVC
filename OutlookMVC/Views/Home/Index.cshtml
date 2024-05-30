@@ -1,0 +1,67 @@
+﻿<style>
+  #myTable, #myTable tr * {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+        #myTable1, #myTable1 tr * {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+</style>
+
+<br/><br/>
+My Mails
+<br />
+<br />
+<table id="myTable" bord>
+  <tr>
+    <th>To Recipients</th>
+    <th>From</th>
+    <th>Subject</th>
+    <th>Body Preview</th>
+    <th>Created DateTime</th>
+  </tr>
+</table>
+
+<br />
+<br />
+Inbox
+<br />
+<br />
+<table id="myTable1" bord>
+    <tr>
+        <th>To Recipients</th>
+        <th>From</th>
+        <th>Subject</th>
+        <th>Body Preview</th>
+        <th>Created DateTime</th>
+    </tr>
+</table>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@* 
+<script>
+  
+
+  var table = document.getElementById('myTable');
+
+  data.forEach(function (item) {
+    var row = table.insertRow();
+
+    var toRecipientsCell = row.insertCell(0);
+    var fromCell = row.insertCell(1);
+    var subjectCell = row.insertCell(2);
+    var bodyPreviewCell = row.insertCell(3);
+    var createdDateTimeCell = row.insertCell(4);
+
+    var emailAddresses = item.toRecipients.map(function (recipient) {
+      return recipient.emailAddress.address;
+    });
+    toRecipientsCell.innerHTML = emailAddresses.join(', ');
+    fromCell.innerHTML = item.from.emailAddress.address;
+    subjectCell.innerHTML = item.subject;
+    bodyPreviewCell.innerHTML = item.body.content;
+    createdDateTimeCell.innerHTML = item.createdDateTime;
+  });
+
+</script> *@
